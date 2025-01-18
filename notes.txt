@@ -1,0 +1,10 @@
+Steps to create a repo locally and push to github
+
+1 Local folder
+	1.1 local folder created
+	1.2 git init in the folder
+	1.3 README.md copied from skills-introduction-to-github
+2 Authenticate
+	2.1 gh auth login
+	2.2 follow on screen guide
+
