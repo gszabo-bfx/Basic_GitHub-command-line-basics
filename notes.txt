@@ -1,18 +1,23 @@
 Steps to create a repo locally and push to github
 
-1 Local folder
-	1.1 local folder created
-	1.2 $ git init i# in the folder
-	1.3 README.md copied from skills-introduction-to-github
-	1.4 $ git add README.md # staged
-	1.5 $ git commit # stages committed
-	1.6 $ git status # all clean
-2 Authenticate
-	2.1 $ gh auth login
-	2.2 follow on screen guide
-3 Create and push repo from local
-	3.1 $ gh repo create 
-	3.2 follow on screen guide at the end script asks if push need
+- Local folder
+	-- local folder created
+	-- $ git init i# in the folder
+	-- README.md copied from skills-introduction-to-github
+	-- $ git add README.md # staged
+	-- $ git commit # stages committed
+	-- $ git status # all clean
+- Setup email and username in local config
+	-- $ git config --global user.email gyula.szabo.bfx@gmail.com
+	-- $ git config --global user.name gszabo-bfx
+	-- UNSET # remove entry from config
+	-- git config --global --unset user.emael gyula.szabo.bfx@gmail.com
+- Authenticate
+	-- $ gh auth login
+	-- follow on screen guide
+- Create and push repo from local
+	-- $ gh repo create 
+	-- follow on screen guide at the end script asks if push need
 
 
 
